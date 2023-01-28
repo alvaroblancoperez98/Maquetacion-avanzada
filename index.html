@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pintados</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -13,10 +13,20 @@
 <body>
     <div class="container-sm text-center">
         <header>
-            <div class="header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal">Pintados</h1>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <span class="fs-4">Pintados</span>
+        
+              <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a class="me-3 py-2 text-dark text-decoration-none" href="../index.html">Inicio</a>
+                <a class="me-3 py-2 text-dark text-decoration-none" href="html/juego.html">Tipo</a>
+                <a class="py-2 text-dark text-decoration-none " href="#">Contacto</a>
+              </nav>
             </div>
-        </header>
+        
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+              <h1 class="display-4 fw-normal">Pintados</h1>
+            </div>
+          </header>
 
         <main>
             <div class="container-sm d-flex justify-content-center">
@@ -34,8 +44,11 @@
                         <button class="btn btn-primary" type="button">Button</button>
                         <button class="btn btn-primary" type="button">Button</button>
                     </div>
-                    <button type="button" class="btn btn-primary">¡A jugar!</button>
-
+                    <div>
+                        <a href="html/juego.html">
+                            <button type="button" class="btn btn-primary padding-bottom" href="html/juego.html">¡A jugar!</button>
+                        </a>
+                    </div>
                 </form>
             </div>
         </main>
