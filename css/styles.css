@@ -1,13 +1,29 @@
-html,
-body {
-    width: 100%;
-    padding: 20px;
-    margin: auto;
-    
+
+@media (min-width: 768px) {}
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {}
+
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  background-color: #f5f5f5;
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }
